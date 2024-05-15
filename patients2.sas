@@ -3,7 +3,7 @@
 *-----------------------------------------------------------------*
 | PROGRAM NAME: PATIENTS2.SAS IN C:\CLEANING                      |
 | PURPOSE: TO CREATE A SAS DATA SET CALLED PATIENTS2              |
-| DATE:                                               |
+| DATE:                                                           |
 *-----------------------------------------------------------------*;
 
 libname clean "C:\...";
