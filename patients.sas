@@ -3,13 +3,13 @@
 *----------------------------------------------------------------*
 | PROGRAM NAME: PATIENTS.SAS IN C:\CLEANING                      |
 | PURPOSE: TO CREATE A SAS DATA SET CALLED PATIENTS              |
-| DATE: MAY 29, 1998                                             |
+| DATE:                                                          |
 *----------------------------------------------------------------*;
 
-libname clean "C:\Users\riosa\documents\datasets\sas\data_cleaning_techniques";
+libname clean "C:\...";
 
 data clean.patients;
- infile "C:\Users\riosa\documents\datasets\sas\data_cleaning_techniques\patients.txt" pad;
+ infile "C:\...\patients.txt" pad;
  input @1   patno   $3.
        @4   gender  $1.
 	   @5   visit   mmddyy10.
